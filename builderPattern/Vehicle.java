@@ -25,7 +25,7 @@ public class Vehicle {
 	}
 	
 //	private constructor
-	Vehicle(VehicleBuilder vehicleBuilder){
+	private Vehicle(VehicleBuilder vehicleBuilder){
 		this.engine = vehicleBuilder.engine;
 		this.wheels = vehicleBuilder.wheels;
 		this.airbags = vehicleBuilder.airbags;
