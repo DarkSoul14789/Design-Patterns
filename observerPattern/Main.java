@@ -1,5 +1,11 @@
 package observerPattern;
 
+import observerPattern.observable.IWeatherObservable;
+import observerPattern.observable.WeatherObservable;
+import observerPattern.observer.IDisplayObserver;
+import observerPattern.observer.MobileDisplay;
+import observerPattern.observer.TVDisplay;
+
 public class Main {
 
 	public static void main(String[] args) {
